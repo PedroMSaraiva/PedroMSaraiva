@@ -2,21 +2,6 @@
 
 I am currently pursuing a Bachelor's degree in Artificial Intelligence at UFG, with solid experience in Machine Learning and Data Science. My background includes extensive knowledge in robotics and a strong entrepreneurial spirit, allowing me to identify and develop innovative solutions. Additionally, I possess excellent communication skills, which facilitate collaboration and leadership of multidisciplinary teams. I am constantly seeking challenges that allow me to apply and expand my knowledge, contributing to technological advancements and the success of the organizations I collaborate with.
 
----
-
-## Tools and Customization Resources
-
-### GitHub Readme Stats
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=PedroMSaraiva&show_icons=true&theme=radical)
-
-### GitHub Profile Trophy
-[![trophy](https://github-profile-trophy.vercel.app/?username=PedroMSaraiva)](https://github.com/ryo-ma/github-profile-trophy)
-
-### Contribution Streak Stats
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=PedroMSaraiva&theme=dark)
-
----
-
 ## About Me
 
 - 💻 **Currently Studying**: Bachelor's degree in Artificial Intelligence at UFG
