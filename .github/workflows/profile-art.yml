@@ -1,0 +1,25 @@
+name: profile-art
+on:
+  schedule: [{ cron: "17 6 * * *" }]
+  workflow_dispatch:
+  push: { branches: [main] }
+permissions: { contents: write }
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Header and activity chart
+        run: python3 assets/build.py ${{ github.repository_owner }}
+        env: { GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}" }
+      - name: Snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/svg/snake-light.svg?color_snake=#9A5F0A&color_dots=#E6ECF1,#C9D6E2,#9FB3C6,#5E7891,#2A3442
+            assets/svg/snake-dark.svg?color_snake=#E3A645&color_dots=#1A2230,#2A3442,#3E5470,#6F8FB0,#C9D6E2
+      - name: Publish to the output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with: { target_branch: output, build_dir: assets/svg, jekyll: false }
+        env: { GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}" }
