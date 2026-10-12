@@ -5,12 +5,12 @@
 
 I build AI agents that run in production, and the infrastructure under them.
 
-|  |  |
-|---|---|
-| **Shipping** | LLM agents on Kubernetes with GitOps at [Confi / Neotrust](https://github.com/ConfiNeotrust) |
-| **Researching** | Digital twins from drone imagery: multi-view 3D reconstruction (AKCIT) |
-| **Studying** | B.Sc. in Artificial Intelligence at UFG, Brazil's first cohort · infra lead at the GAIA study group |
-| **Open to** | Remote contracts through Saraiva Cognitive, my company · UTC−3, 1–2 h from US Eastern |
+<table>
+  <tr><td><b>Shipping</b></td><td>LLM agents on Kubernetes with GitOps at <a href="https://github.com/ConfiNeotrust">Confi / Neotrust</a></td></tr>
+  <tr><td><b>Researching</b></td><td>Digital twins from drone imagery: multi-view 3D reconstruction (AKCIT)</td></tr>
+  <tr><td><b>Studying</b></td><td>B.Sc. in Artificial Intelligence at UFG, Brazil's first cohort · infra lead at the GAIA study group</td></tr>
+  <tr><td><b>Open to</b></td><td>Remote contracts through Saraiva Cognitive, my company · UTC−3, 1–2 h from US Eastern</td></tr>
+</table>
 
 ![Python](https://img.shields.io/badge/Python-121821?style=flat-square&logo=python&logoColor=D9962B)
 ![PyTorch](https://img.shields.io/badge/PyTorch-121821?style=flat-square&logo=pytorch&logoColor=D9962B)
